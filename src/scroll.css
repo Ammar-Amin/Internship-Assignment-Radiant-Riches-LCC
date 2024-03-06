@@ -1,0 +1,21 @@
+.top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(51, 38, 38);
+}
+
+.scroll-container {
+    position: fixed;
+    margin-top: 24px;
+    height: 9px;
+    width: 100%;
+    background-color: gray;
+}
+
+.scroll-bar {
+    height: 9px;
+    width: 1%;
+    background-color: blue;
+}

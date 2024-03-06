@@ -1,0 +1,49 @@
+@media only screen and (max-width:740px) {
+  .heading {
+    display: none;
+  }
+
+  .threeHeads {
+    padding: 0px 1rem;
+  }
+
+  .model {
+    margin: 0px 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .builder {
+    display: none;
+  }
+
+  .modelBtn {
+    margin: -3rem 0 1rem 2rem;
+  }
+
+  .img {
+    width: 300px;
+  }
+
+
+  .cardTitle {
+    text-align: center;
+  }
+
+  .cards {
+    padding: 0px 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .email {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+}
