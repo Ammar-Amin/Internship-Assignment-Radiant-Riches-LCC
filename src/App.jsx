@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className='scroll-container absolute top-9 z-50'>
+      <div className='scroll-container fixed top-9 z-50'>
         <div className='scroll-bar '
           style={{ width: `${scrollPercentage}%` }} ></div>
       </div>
