@@ -4,19 +4,19 @@ export default function Header2() {
     return (
         <div className='mt-[80px]'>
             <div className='threeHeads max-w-[950px] text-slate-600 m-auto'>
-                <h1 className='text-5xl text-black mb-4'>Best Website builders in the US</h1>
+                <h1 className='title text-5xl text-black mb-4'>Best Website builders in the US</h1>
 
                 <div className='flex justify-between px-2 py-1 border-t-[1px] border-b-[1px] border-slate-600'>
                     <div className='flex gap-2 items-center'>
                         <i className=" ri-checkbox-circle-line"></i>
                         Last Updated - February 22, 2020
 
-                        <i className=" ri-information-line"></i>
-                        Advertising Disclosure
+                        <i className="ad-dis ri-information-line"></i>
+                        <span className='ad-dis'>Advertising Disclosure</span>
 
                     </div>
 
-                    <div>
+                    <div className='flex items-center'>
                         <div className="dropdown">
                             <button className="btn btn-light dropdown-toggle bg-white text-slate-600" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Top Relevant

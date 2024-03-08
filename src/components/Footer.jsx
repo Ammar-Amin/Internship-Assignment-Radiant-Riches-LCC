@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <div className='footer bg-slate-800 text-slate-400 min-h-[400px] pt-8 flex'>
-            <div className='w-[65%] flex justify-evenly'>
+            <div className='footer1 w-[65%] flex justify-evenly'>
                 <div>
                     <p className='text-white text-xl py-2'>CATEGORIES</p>
                     <p className='py-1'>Web Builder</p>
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
 
 
-            <div class="dropdown top-10">
+            <div class="dropdown h-[70px] top-10">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     United States
                 </button>

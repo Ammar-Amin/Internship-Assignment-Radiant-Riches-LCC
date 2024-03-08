@@ -51,7 +51,7 @@ export default function Cards() {
             </div>
 
             <div className='email max-w-[950px] m-auto flex justify-between my-5'>
-                <div className='text-3xl py-4'>
+                <div className='signupText text-3xl py-4'>
                     <p >Sign up and get exclusive</p>
                     <p>special deals</p>
                 </div>

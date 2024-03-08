@@ -4,7 +4,7 @@ import img from '../../assets/interimg.jpg'
 
 export default function LastBody({ reviewNo, reviewText }) {
     return (
-        <div>
+        <div className='modelBox'>
             <div className="container max-w-[950px] bg-white rounded-xl mb-6 relative">
                 <span className='text-2xl rounded-full px-2 bg-slate-100 absolute top-5 z-40' >4</span>
                 <div className="model row">
@@ -20,7 +20,7 @@ export default function LastBody({ reviewNo, reviewText }) {
                         </div>
                         <div>
                             <p className='font-bold py-1'>Main highlights</p>
-                            <div className='bg-orange-200 p-2 rounded-lg mx-4'>
+                            <div className='bg-orange-100 p-2 rounded-lg mx-4'>
                                 <div className='flex gap-3 mb-1 mt-1'>
                                     <button className='text-blue-600 px-1 rounded-md  bg-white'>9.9</button><p className='text-slate-600'>Building Responsive</p>
                                 </div>
@@ -42,7 +42,7 @@ export default function LastBody({ reviewNo, reviewText }) {
                         </div>
                     </div>
 
-                    <div className="col-3 ">
+                    <div className="col-3 rating w-[240px] ">
                         <div className='w-[150px] m-auto text-center bg-slate-200 p-4 rounded-b-lg'>
                             <div className='text-4xl'>{reviewNo}</div>
                             <p className='py-2'>{reviewText}</p>
@@ -55,7 +55,7 @@ export default function LastBody({ reviewNo, reviewText }) {
                             </div>
                         </div>
 
-                        <button type="button" className="modelBtn lastBtn btn btn-primary w-full bg-blue-500 mt-48">View</button>
+                        <button type="button" className="lastBTN modelBtn btn btn-primary px-[90px] bg-blue-500 ">View</button>
                     </div>
                 </div>
             </div >

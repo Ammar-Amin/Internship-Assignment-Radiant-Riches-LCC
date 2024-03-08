@@ -7,6 +7,11 @@
     padding: 0px 1rem;
   }
 
+  .modelBox {
+    width: 90%;
+    margin: auto;
+  }
+
   .model {
     margin: 0px 1rem;
     display: flex;
@@ -18,16 +23,22 @@
     display: none;
   }
 
+  .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .modelBtn {
-    margin: -3rem 0 1rem 2rem;
+    margin: 1rem;
   }
 
   .img {
     width: 300px;
   }
 
-
-  .cardTitle {
+  .cardTitle,
+  .signupText {
     text-align: center;
   }
 
@@ -45,5 +56,24 @@
 
   .footer {
     padding: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .footer1 {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 746px) {
+  .lastBTN {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (width < 430px) {
+  .ad-dis {
+    display: none;
   }
 }

@@ -4,7 +4,7 @@ import img from '../../assets/interimg.jpg'
 
 export default function SubBody({ no, reviewNo, reviewText }) {
     return (
-        <div>
+        <div className='modelBox' >
             <div className="container max-w-[950px] bg-white rounded-xl mb-6 relative">
                 <span className='text-2xl rounded-full px-2 bg-slate-100 absolute top-5 z-40' >{no}</span>
                 <div className="model row">
@@ -27,7 +27,7 @@ export default function SubBody({ no, reviewNo, reviewText }) {
                         </div>
                     </div>
 
-                    <div className="col-3 ">
+                    <div className="col-3 rating w-[240px]">
                         <div className='w-[150px] m-auto text-center bg-slate-200 p-4 rounded-b-lg'>
                             <div className='text-4xl'>{reviewNo}</div>
                             <p className='py-2'>{reviewText}</p>
