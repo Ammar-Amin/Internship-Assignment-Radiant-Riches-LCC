@@ -19,7 +19,7 @@ To start the development server, run:
 npm run dev
 
 ## Live Demo
-You can view a live demo of the project [here](https://github.com/Ammar-Amin/Internship-Assignment-Radiant-Riches-LCC).
+You can view a live demo of the project [here](https://main--ammar-amin-radiant-riches.netlify.app/).
 
 ## Key Features
 - Responsive front-end user interface created with React.js for seamless usability across devices.
